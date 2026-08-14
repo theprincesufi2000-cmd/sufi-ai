@@ -1,0 +1,1 @@
+{"rules":{".read":false,".write":false,"users":{"$uid":{".read":"auth != null && auth.uid === $uid",".write":"auth != null && auth.uid === $uid","memories":{"$id":{".validate":"newData.hasChildren(['key','value']) && newData.child('key').isString() && newData.child('value').isString()"}},"conversations":{"$id":{".validate":"newData.hasChildren(['updatedAt','messages'])"}}}}}}
