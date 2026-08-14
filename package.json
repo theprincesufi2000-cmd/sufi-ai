@@ -1,0 +1,1 @@
+{"name":"gemini-sufi-v6-direct","version":"6.0.0","private":true,"scripts":{"build":"echo web assets ready","android:add":"npx cap add android","android:sync":"npx cap sync android"},"dependencies":{"@capacitor/core":"^7.4.0","@capacitor/android":"^7.4.0","@capacitor/cli":"^7.4.0"}}
